@@ -8,6 +8,12 @@ public class changeColor : MonoBehaviour {
 			GetComponent<Renderer>().material.color = Color.green;		
 		if (Input.GetKeyDown(KeyCode.B))
 			GetComponent<Renderer>().material.color = Color.blue;
-	}
+        if (Input.GetKeyDown(KeyCode.Space))
+            GetComponent<Renderer>().material.color = Color.black;
+        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+            GetComponent<Renderer>().material.color = Color.yellow;
+        if (Input.GetKeyDown(KeyCode.Delete))
+            GetComponent<Renderer>().material.color = Color.white;
+    }
 
 }
